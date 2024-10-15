@@ -1,16 +1,16 @@
 # Kaggle Competition: [Global Wheat Detection]
 
 ## Giới thiệu
-Repo này chứa lời giải của tôi cho cuộc thi [Global Wheat Detection](https://www.kaggle.com/competitions/global-wheat-detection/overview)
+Repo này chứa lời giải của tôi cho cuộc thi [Global Wheat Detection](https://www.kaggle.com/competitions/global-wheat-detection/overview). Trong cuộc thi này, người tham dự yêu cầu phải phát hiện các ngọn lúa mỳ từ các bức ảnh chụp lúa mỳ thu thập ở khắp nơi. Bên dưới là cách tôi thực hiện bài toán.
 ## Dataset
 Dữ liệu cho cuộc thi bao gồm:
-- **Train data**: [Tóm tắt về dữ liệu huấn luyện]
-- **Test data**: [Tóm tắt về dữ liệu kiểm tra]
-- **Submission file**: [Mô tả file kết quả nộp bài]
+- **train.zip** và **test.zip**: dữ liệu ảnh lúa mỳ được thu thập khắp nơi dùng cho khi train và test
+- **train.csv**: chứa các trường dữ liệu của dữ liệu  huấn luyện lúa mỳ
+- **submission.csv**: định dạng file khi nộp kết quả
 
-Thông tin chi tiết về dữ liệu có thể được tìm thấy [tại đây](link đến phần Dataset của Kaggle).
+Thông tin chi tiết về dữ liệu có thể được tìm thấy [tại đây](https://www.kaggle.com/competitions/global-wheat-detection/data).
 
-## Mô tả các notebook
+## Augmentation
 
 1. **[Tên notebook 1]**:
    - **Mục đích**: [Mục tiêu của notebook này, ví dụ "Khám phá và phân tích dữ liệu ban đầu"]
@@ -19,13 +19,7 @@ Thông tin chi tiết về dữ liệu có thể được tìm thấy [tại đ�
      2. [Tóm tắt các phương pháp phân tích]
    - **Kết quả**: [Những phát hiện hoặc kết luận chính]
 
-2. **[Tên notebook 2]**:
-   - **Mục đích**: [Ví dụ: "Huấn luyện mô hình và đánh giá kết quả"]
-   - **Các bước chính**: 
-     1. [Tóm tắt quá trình tiền xử lý dữ liệu]
-     2. [Chi tiết về mô hình đã sử dụng]
-     3. [Cách đánh giá hiệu suất mô hình]
-   - **Kết quả**: [Các chỉ số quan trọng và kết luận]
+
 
 ## Hướng dẫn sử dụng
 Để chạy các notebook, bạn cần thực hiện các bước sau:

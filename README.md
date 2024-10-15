@@ -1,8 +1,7 @@
-# Kaggle Competition: [Tên Cuộc Thi]
+# Kaggle Competition: [Global Wheat Detection]
 
 ## Giới thiệu
-Cuộc thi này nhằm giải quyết **[mô tả ngắn gọn về mục tiêu của cuộc thi]**. Thử thách là _[tóm tắt yêu cầu chính của cuộc thi]_.
-
+Repo này chứa lời giải của tôi cho cuộc thi [Global Wheat Detection](https://www.kaggle.com/competitions/global-wheat-detection/overview)
 ## Dataset
 Dữ liệu cho cuộc thi bao gồm:
 - **Train data**: [Tóm tắt về dữ liệu huấn luyện]

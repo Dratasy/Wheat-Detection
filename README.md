@@ -11,7 +11,18 @@ Dữ liệu cho cuộc thi bao gồm:
 Thông tin chi tiết về dữ liệu có thể được tìm thấy [tại đây](https://www.kaggle.com/competitions/global-wheat-detection/data).
 
 ## Augmentation
+Sử dụng một số cách tăng cường dữ liệu sau đây:
+- HorizontalFlip
+- RandomBrightnessContrast
+- Resize
 
+## Model
+- Faster RCNN, với backbone Resnet50
+- Dùng 5 fold cross validation
+- Optimizer: Adam lr: 0.001
+- Scheduler: ReduceLROnPlateau, factor 0.1, patience là 5 epoch
+- Chạy 15 epoch
+- Dùng [Weighted box fusion]() khi vào inference
 1. **[Tên notebook 1]**:
    - **Mục đích**: [Mục tiêu của notebook này, ví dụ "Khám phá và phân tích dữ liệu ban đầu"]
    - **Các bước chính**: 

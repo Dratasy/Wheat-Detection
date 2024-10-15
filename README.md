@@ -22,19 +22,8 @@ Sử dụng một số cách tăng cường dữ liệu sau đây:
 - Optimizer: Adam lr: 0.001
 - Scheduler: ReduceLROnPlateau, factor 0.1, patience là 5 epoch
 - Chạy 15 epoch
-- Dùng [Weighted box fusion]() khi vào inference
-1. **[Tên notebook 1]**:
-   - **Mục đích**: [Mục tiêu của notebook này, ví dụ "Khám phá và phân tích dữ liệu ban đầu"]
-   - **Các bước chính**: 
-     1. [Tóm tắt các bước thực hiện]
-     2. [Tóm tắt các phương pháp phân tích]
-   - **Kết quả**: [Những phát hiện hoặc kết luận chính]
+- Dùng [Weighted box fusion](https://github.com/ZFTurbo/Weighted-Boxes-Fusion) khi vào inference
 
-
-
-## Hướng dẫn sử dụng
-Để chạy các notebook, bạn cần thực hiện các bước sau:
-1. **Clone repository**: `git clone [link repo]`
-2. **Cài đặt dependencies**:
-   ```bash
-   pip install -r requirements.txt
+## Kaggle kernel
+- [Code dùng để train](https://www.kaggle.com/code/quntrnhongng/training-faster-rcnn-with-lightning)
+- [Code dùng để infer](https://www.kaggle.com/code/quntrnhongng/inference-faster-rcnn-wbf)
